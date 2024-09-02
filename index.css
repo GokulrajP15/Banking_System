@@ -1,0 +1,123 @@
+h1{
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+h3{
+    text-align: center;
+}
+#index{
+    border: 5cqi solid silver;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 37%;
+    margin-top: 4%;
+    padding: 30px;
+}
+.button{
+    margin-top: 15%;
+    width: 150px;
+    padding: 10px;
+    box-shadow: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button:hover{
+    background-color:#4cae4c;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 40px;
+    text-align: center;
+}
+#dep{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+input{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    font-size: large;
+}
+p{
+    font-size: larger;
+    margin-left: -10px;
+}
+#dbutton{
+    margin-left: 20%;
+    border: 0;
+    width: 80px;
+    padding: 8px;
+    box-shadow: 10px;
+    border-radius: 5px;
+    background-color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#dbutton:hover{
+    background-color: #4cae4c;
+}
+h4{
+    margin-left: 50%;
+}
+#a-balance{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    color: black;
+    background-color :crimson;
+}
+#a-balance:hover{
+    background-color: #4cae4c;
+}
+#balance-div{
+    margin-top: 1%;
+    margin-left: 550px;
+    width: fit-content;
+}
+#a-deposit{
+    text-decoration: none;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: black;
+    background-color :crimson;
+}
+#a-deposit:hover{
+    background-color: #4cae4c;
+}
+/* #foot{
+    background-color: #333;
+    height: 100px;
+    margin-top: 60px;
+} */
+#foot{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+}

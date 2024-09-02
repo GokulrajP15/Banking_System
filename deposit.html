@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title>Deposit</title>
+</head>
+<body>
+    <h1>Deposit your Amount here...</h1>
+    <form action="" id="dep" method="post">
+        {% csrf_token %}
+        <p>Enter Your Amount : <input type="number" name="amt" min="1" max="100000" step="1"></p>
+        
+        <button id="dbutton">Deposit</button> 
+        <a href="/home" id="a-deposit">Back</a>
+    </form>
+    <h4>{% if mes %}
+        {{mes}}
+        {% endif %}
+        {{dep|floatformat:2}}
+    </h4>
+    
+</body>
+</html>

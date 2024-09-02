@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title>Balance Check</title>
+</head>
+<body>
+    <h1>Your Balance in INR</h1>
+    <table>
+        <tr>
+            <th>Transaction.No</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Balance</th>
+        </tr>
+        <tr>
+            <td>{{count}}</td>
+            <td>{{date}}</td>
+            <td>{{time}}</td>
+            <td>{{balance|floatformat:2}}</td>
+        </tr>
+    </table>
+    <div id="balance-div">
+        <a href="/home" id="a-balance">Back</a>
+        <a href="/deposit" id="a-balance">Deposit</a>
+        <a href="/withdraw" id="a-balance">Withdrawl</a>
+    </div>
+</body>
+</html>
